@@ -65,3 +65,9 @@
 * git push origin <local_branch> #create remote branch and 'origin' is remote branch name
 * git push origin <local_branch>:<remote_branch> #ceate the remote branch named remote_branch
 * git push origin :<remote_branch>               #delete the local branch first,and then delete the remote branch
+
+## The difference of simple and current
+
+* upstream push the current branch to its upstream branch
+* simple like upstream,but refuses to push if the upstram branch's name is different from the local one
+* current push the current branch to a branch of the same name
